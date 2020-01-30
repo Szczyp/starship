@@ -16,7 +16,7 @@ impl<'a> RootModuleConfig<'a> for HaskellConfig<'a> {
         HaskellConfig {
             symbol: SegmentConfig::new("λ "),
             version: SegmentConfig::default(),
-            style: Color::Red.bold(),
+            style: Color::Purple.bold(),
             disabled: false,
         }
     }
